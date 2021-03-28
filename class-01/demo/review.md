@@ -84,6 +84,7 @@ In the same html file
 
 - External:
 create a file for CSS
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -95,7 +96,7 @@ create a file for CSS
   </head>
 
 </html>
-
+```
 
 how to select tags to style:
 
