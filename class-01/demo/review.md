@@ -50,12 +50,12 @@ html is for structring the page
 
 styling the page
 
--Inline:
+- Inline:
 ```html
 <p style="color:red;">some text</p>
 ```
 
--Internal style:
+- Internal style:
 In the same html file
 
 
@@ -82,7 +82,7 @@ In the same html file
 ```
 
 
--External:
+- External:
 create a file for CSS
 <!DOCTYPE html>
 <html>
@@ -97,7 +97,7 @@ create a file for CSS
 </html>
 
 
-how to write:
+how to select tags to style:
 
 ```css
 
