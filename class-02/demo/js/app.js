@@ -142,21 +142,21 @@ false || false => false
 */
 
 
-let myBool=false;
-let anotherBool=false;
-let thirdBool=true;
+// let myBool=false;
+// let anotherBool=false;
+// let thirdBool=true;
 
 
 
-if (myBool && thirdBool) {
-    console.log('myBool and thirdBool are true');
-} else if(myBool|| anotherBool){
-    console.log('one of them was true');
-}else if(thirdBool){
-    console.log('third bool was true');
-}else{
-    console.log('is there any of them true?');
-}
+// if (myBool && thirdBool) {
+//     console.log('myBool and thirdBool are true');
+// } else if(myBool|| anotherBool){
+//     console.log('one of them was true');
+// }else if(thirdBool){
+//     console.log('third bool was true');
+// }else{
+//     console.log('is there any of them true?');
+// }
 
 
 /*
