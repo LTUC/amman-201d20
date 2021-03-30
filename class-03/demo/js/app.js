@@ -54,6 +54,12 @@ OR
 it only false when both of them are false
 when you have 1 as true the final result is true
 
+NOT
+!
+The opposite of a value
+!true => false
+
+
 truthy:
 true
 1
