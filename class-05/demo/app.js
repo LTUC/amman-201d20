@@ -12,6 +12,7 @@
 // console.log(arrayOfAnswers);
 
 
+
 // function Declaration
 
 // let userName=prompt('whats you name?');

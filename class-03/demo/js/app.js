@@ -278,6 +278,7 @@ console.log(`hello there from js ${userName}`);
 
 
 
+
 let typesOfFoods = ['burger', 'steak', 'pizza', 'mansaf'];
 
 for (let i = 0; i < typesOfFoods.length; i++) {
