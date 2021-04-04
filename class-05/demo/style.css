@@ -1,0 +1,47 @@
+
+p{
+    font-family: 'Syne Mono', monospace;
+}
+
+#second{
+    font-family: 'Syne Mono', monospace;
+font-family: 'Train One', cursive;
+}
+
+#parent {
+    background-color:#7a4579;
+     position:relative;
+     height:200vh;
+     margin-top: 5%;
+     width: 50%;
+     padding: 50px;
+     
+}
+
+#child-one {
+background-color:#d56073; 
+    position: sticky;  
+    /* right:0;
+     */
+     top: 0px;
+     /* right: 50%; */
+     height: 100px;
+     /* margin: 50px; */
+    /* top: 500px; */
+    /* bottom: 20px; */
+    width: 10%;
+}
+
+#child-two {
+background-color:#ec9e69; 
+    position:static;
+    width: 10%;
+    
+}
+
+#child-three {
+    background-color:#ffff8f;
+    position:static;
+    width: 10%;
+}
+
