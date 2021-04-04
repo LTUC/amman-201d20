@@ -22,7 +22,8 @@ let frankie={
   name:'frankie',
   age:0,
   likes:['napping','cuddiling','eating'],
-  isGoodWithKids:true,isGoodWithDogs:false,
+  isGoodWithKids:true,
+  isGoodWithDogs:false,
   isGoodWithOtherCats:true,
   breed:'angora',
   getAge:function () {
