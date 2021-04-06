@@ -120,6 +120,8 @@ Kitten.prototype.render = function () {
         liElement.textContent = this.intrests[i];
 
     }
+    /*
+     */
 
 
     let image = document.createElement('img');
