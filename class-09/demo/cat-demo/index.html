@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adopt a Kitten</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <h1>Adopt a Kitten</h1>
+    </header>
+    <main>
+
+      <form action="" id="kittenForm">
+        <fieldset>
+          <label for="nameField">Name</label>
+
+          <input type="text" id="nameField" name="nameField" autocomplete="off">
+          <br>
+          <br>
+
+          <label for="likesField">Likes</label>
+          <input type="text" name="likesField" id="likesField" placeholder="split by commas please">
+
+          <br>
+          <br>
+
+          <input type="checkbox" name="isGoodWithDogs" id="isGoodWithDogs"> 
+          <label for="isGoodWithDogs">Is Good With Dogs</label>
+
+          <input type="checkbox" name="isGoodWithKids" id="isGoodWithKids"> 
+
+          <label for="isGoodWithKids">Is Good With Kids</label>
+
+          <input type="checkbox" name="isGoodWithCats" id="isGoodWithCats"> 
+          <label for="isGoodWithCats">Is Good With Cats</label>
+
+
+          <br>
+          <br>
+
+
+          <input type="Submit">
+
+        </fieldset>
+      </form>
+
+
+
+      <h2>Kittens Available for Adoption:</h2>
+      <div id="kittenProfiles">
+
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
