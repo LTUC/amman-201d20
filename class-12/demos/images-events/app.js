@@ -204,7 +204,7 @@ function handleUserClick(event) {
     // container.appendChild(button);
     // button.textContent='show results';
 
-    button.addEventListener('click',showing);
+    button.addEventListener('click',showingList);
     button.hidden=false;
 
 
@@ -228,7 +228,7 @@ function handleUserClick(event) {
 }
 
 // fucntion for showing list
-function showing() {
+function showingList() {
   let list=document.getElementById('results-list');
 
       
