@@ -114,7 +114,7 @@ function generateRandomIndex() {
 }
 
 // console.log(generateRandomIndex());
-
+let shownPictures=[];
 
 function renderTwoImages() {
   console.log('before',shownPictures);
@@ -123,7 +123,7 @@ function renderTwoImages() {
   middleImageIndex=generateRandomIndex();
   rightImageIndex=generateRandomIndex();
 
-  while (leftImageIndex===rightImageIndex ||leftImageIndex===middleImageIndex || middleImageIndex === rightImageIndex) {
+  while (leftImageIndex===rightImageIndex ||leftImageIndex===middleImageIndex || middleImageIndex === rightImageIndex || shownPictures.includes(leftImageIndex)||shownPictures.includes(middleImageIndex)||shownPictures.includes(rightImageIndex)) {
     leftImageIndex=generateRandomIndex();
     rightImageIndex=generateRandomIndex();
     middleImageIndex=generateRandomIndex();
@@ -140,7 +140,19 @@ function renderTwoImages() {
   // Goat.allGoats[3]
   // console.log('first goat', Goat.allGoats[0].name);
 
+  // you can make sure to replace values every time you run the function
+ 
 
+  shownPictures=[leftImageIndex,middleImageIndex,rightImageIndex];
+  
+  
+  // if we pushed values
+
+  // shownPictures=[];
+  // shownPictures.push(leftImageIndex,middleImageIndex,rightImageIndex);
+
+  
+  // console.log('after',shownPictures);
 
   leftImageElement.src=Goat.allGoats[leftImageIndex].source;
   Goat.allGoats[leftImageIndex].shown++;
